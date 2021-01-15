@@ -3,8 +3,6 @@
 from nltk.corpus import words
 word_list = words.words()
 
-
-
 # Function return 10 longest English words consisting only of letter in a string 'row':
 def getWords(row):
     letters = set([x for x in row])
