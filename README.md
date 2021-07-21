@@ -1,7 +1,9 @@
 # Longest Word From a Set of Letters
 What is the longest English word that you can type only using one row of the keyboard (or any other set of letters, really)?
 
-A fun little day project. A small pre-requisite is downloading words dictionary from nltk library: (more info here)[http://www.nltk.org/data.html#]
+A fun little day project. A small pre-requisite is downloading words dictionary from nltk library: [more info here.](http://www.nltk.org/data.html)
+
+
 
     top_row = 'qwertyuiop'
     getWords(top_row)
