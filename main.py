@@ -1,6 +1,11 @@
 # What are the longest words that can be typed using only letters from the top row of a keyboard?
 
+# Downloading corpora from nltk library:
+#import nltk
+#nltk.download()
+
 from nltk.corpus import words
+
 word_list = words.words()
 
 # Function return 10 longest English words consisting only of letter in a string 'row':
